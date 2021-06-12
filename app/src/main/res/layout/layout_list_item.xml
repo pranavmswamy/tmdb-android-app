@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/colorDark">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardOne"
+        android:layout_width="120dp"
+        android:layout_height="155dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="1dp"
+        android:color="#000000"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/colorDark">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/cardImageOne"
+                android:src="@drawable/ic_launcher_background"
+                android:foreground="@drawable/main_image_gradient"/>
+
+            <TextView
+                android:id="@+id/nameOne"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/cardImageOne"
+                android:text="The Office"
+                android:layout_marginTop="1dp"
+                android:textColor="#ffffff"
+                android:ellipsize="end"
+                android:maxWidth="70dp"
+                android:maxLines="1"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/release_year"
+                android:layout_below="@+id/nameOne"
+                android:text="(2008)"
+                android:textSize="15sp"
+                android:textColor="#ababab"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/textViewOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="#ffffff"
+                android:textFontWeight="900"
+                android:paddingHorizontal="10dp"
+                android:text="&#8942;"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+
+        </RelativeLayout>
+        
+        
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

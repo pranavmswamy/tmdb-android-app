@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trailer_youtube"
+        android:title="Open in TMDB" />
+    <item
+        android:id="@+id/fb_share"
+        android:icon="@mipmap/facebook_icon"
+        android:title="Share on Facebook" />
+    <item
+        android:id="@+id/tw_share"
+        android:title="Share on Twitter"
+        android:icon="@mipmap/twitter_icon_fg" />
+    <item
+        android:id="@+id/watchlist_remove"
+        android:title="Remove from Watchlist"
+        android:icon="@drawable/ic_baseline_remove_circle_outline_24"
+        android:iconTint="@color/colorDark"/>
+</menu>

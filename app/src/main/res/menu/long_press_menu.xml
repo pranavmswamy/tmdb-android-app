@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trailer_option"
+        android:title="Open in TMDB" />
+    <item
+        android:id="@+id/fb_option"
+        android:icon="@mipmap/facebook_icon"
+        android:title="Share on Facebook" />
+    <item
+        android:id="@+id/tw_option"
+        android:title="Share on Twitter"
+        android:icon="@mipmap/twitter_icon_fg" />
+    <item
+        android:id="@+id/watchlist_option"
+        android:title="Add to Watchlist"
+        android:icon="@drawable/wishlist_add_foreground"
+        android:iconTint="@color/colorDark"/>
+
+</menu>
